@@ -1,0 +1,12 @@
+const discord = require('discord.js');
+const { SlashCommandBuilder } = require('@discordjs/builders');
+const { primaryEmbed, errorEmbed } = require('../../utils/embeds');
+
+module.exports = {
+	data: new SlashCommandBuilder()
+		.setName('')
+		.setDescription(''),
+	async execute(interaction) {
+        interaction.reply()
+    }
+}
